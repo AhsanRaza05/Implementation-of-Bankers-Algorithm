@@ -190,6 +190,6 @@ Now we will enter the data into this table, as shown in Fig B.1.
 
 **Note:** The answer is same as of the book. It can be checked from given reference book.
 
-** <div id = "Refe"> References </div>
+## <div id = "Refe"> References </div>
 
-<div id = "Ref"> [1] </div> The problem is taken from example of the book named "Abraham-Silberschatz-Operating-System-Concepts 9th edition" on page no # 332.
+<div id = "Ref"> [1] It is taken from example of the book named "Abraham-Silberschatz-Operating-System-Concepts 9th edition" on page no # 332. </div>
