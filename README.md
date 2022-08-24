@@ -2,11 +2,11 @@
 
  ## Table Of Contents
 
+* <a href = "#Over" > Overview </a> 
+
+* <a href = "#Req" > Requirements </a> 
+
 * <a href = "#Intro" > Introduction </a> 
-
-* <a href = "#Req" > Requirememnts </a> 
-
-* <a href = "#Desc" > Description </a> 
 
   * <a href = "#Banker" > Banker's Algorithm </a>
   
@@ -15,7 +15,7 @@
 * <a href = "#Demon" > Program Demonstration </a> 
 
   
-## <div id = "Intro"> Introduction </div>
+## <div id = "Over"> Overview </div>
 
 In this project we have implemented two algorithms related to deadlock.
 
@@ -25,7 +25,7 @@ In this project we have implemented two algorithms related to deadlock.
 ## <div id = "Req"> Requirements </div>
 Install JDK 11.0.9 or higher version.
 
-## <div id = "Desc"> Description </div>
+## <div id = "Intro"> Introduction </div>
   This project is about avoiding the deadlock using Java programming language with the help of well-known concepts in Operating Systems. 
   
   We have taken Banker's algorithm and Resource Request algorithm here to detect deadlocks and allocation of resources to avoid deadlock.
