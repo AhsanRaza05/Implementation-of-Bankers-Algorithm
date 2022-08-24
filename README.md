@@ -14,6 +14,7 @@
   
 * <a href = "#Demon" > Program Demonstration </a> 
 
+* <a href = "#Refe" > References </a> 
   
 ## <div id = "Over"> Overview </div>
 
@@ -61,7 +62,7 @@ If the resulting resource-allocation state is safe, the transaction is completed
 
 3. ## <div id = "Demon"> Program Demonstration </div> 
 
-To demonstrate the program, let us consider a system with 5 processes and 3 resource types as shown in Fig Y [1]:
+To demonstrate the program, let us consider a system with 5 processes and 3 resource types as shown in Fig Y <a href = "#Ref" > [1]  </a>
 
 <p align = "center"> 
  <img src = "Readme%20Screenshots/Fig_Y.png" alt = "Fig.Y" > 
@@ -189,6 +190,6 @@ Now we will enter the data into this table, as shown in Fig B.1.
 
 **Note:** The answer is same as of the book. It can be checked from given reference book.
 
-**References:**
+** <div id = "Refe"> References </div>
 
-[1] The problem is taken from example of the book named "Abraham-Silberschatz-Operating-System-Concepts 9th edition" on page no # 332.
+<div id = "Ref"> [1] </div> The problem is taken from example of the book named "Abraham-Silberschatz-Operating-System-Concepts 9th edition" on page no # 332.
