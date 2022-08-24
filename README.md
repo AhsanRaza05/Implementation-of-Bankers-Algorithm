@@ -39,7 +39,7 @@ Install JDK 11.0.9 or higher version.
 - **Allocation:** An n × m matrix defines the number of resources of each type currently allocated to each process. If **Allocation[i][j]** equals k, then process Pi is currently allocated k instances of resource type Rj.
 - **Need:** An n × m matrix indicates the remaining resource need of each process. If Need[i][j] equals k, then process Pi may need k more instances of resource type Rj to complete its task. Note that **Need[i][j]** equals to **Max[i][j]** − **Allocation[i][j]**
 
-2. ## <div id = "Resource"> Resource-Request Algorithm </div> 
+2. ### <div id = "Resource"> Resource-Request Algorithm </div> 
 This algorithm for determining whether requests can be safely granted. Let **Request** **i** be the request vector for process Pi. If **Request** **i** [j] == k, then process Pi wants k instances of resource type Rj. When a request for resources is made by process Pi, the following actions are taken:
 
 1. If **Request** **i** **≤ Need** **i**, go to step 2. Otherwise, raise an error condition, since the process has exceeded its maximum claim.
