@@ -1,6 +1,6 @@
 # Implementation of Banker's and Resource Request Algorithm in Java
 
- Table Of Contents
+ ## Table Of Contents
 
 * <a href = "#Intro" > Introduction </a> 
 
@@ -47,81 +47,145 @@ This algorithm for determining whether requests can be safely granted. Let **Req
 
 3. Have the system pretend to have allocated the requested resources to process Pi by modifying the state as follows:
 
-<img src = "Readme Screenshots/Fig_X.png">
+<p align = "center"> 
+ <img src = "Readme%20Screenshots/Fig_X.png" alt = "Fig.X" > 
+</p>
 
-   **Available = Available–Request**** i** ;
+<div align = "center">
+  <figcaption align = "center">  Fig.X   </figcaption>
+ </div>
 
-   **Allocation**** i **** = Allocation ****i**  **+ Request**** i**;
-
-   **Need**** i **** = Need ****i**  **–Request**** i** ;
+</br>
 
 If the resulting resource-allocation state is safe, the transaction is completed, and process Pi is allocated its resources. However, if the new state is unsafe, then Pi must wait for **Request**** i**, and the old resource-allocation state is restored.
 
-3. ## Demonstration of Program: ![](RackMultipart20220824-1-6h9rdt_html_b3f7ff1742633898.png)
+3. ## Demonstration of Program: 
 
-To demonstrate the program, let us consider a system with 5 processes and 3 resource types as shown in Fig X [1]:
+To demonstrate the program, let us consider a system with 5 processes and 3 resource types as shown in Fig Y [1]:
 
-![Shape2](RackMultipart20220824-1-6h9rdt_html_cf8866ddf2b5f29d.gif)
+<p align = "center"> 
+ <img src = "Readme%20Screenshots/Fig_Y.png" alt = "Fig.Y" > 
+</p>
 
-_Figure X_
+<div align = "center">
+  <figcaption align = "center">  Fig.Y  </figcaption>
+ </div>
+
+</br>
 
 **Step – 01:** Now executing the program and entering the data will result in the following Fig A.
 
-![Shape3](RackMultipart20220824-1-6h9rdt_html_5b1cfccc9c6b7ffd.gif)
+<p align = "center"> 
+ <img src = "Readme%20Screenshots/Fig_A.png" alt = "Fig.A"> 
+</p>
 
-_Figure A_
+<div align = "center">
+  <figcaption align = "center">  Fig.A  </figcaption>
+ </div>
+
+</br>
 
 **Note:** In this program we must provide the numbers/digits.This program restricts the unwanted type of data, example: String, Characters etc., except numbers/digits, as shown as Fig A.1.
 
-![Shape4](RackMultipart20220824-1-6h9rdt_html_c6166db7a30ff23f.gif)
+<p align = "center"> 
+ <img src = "Readme%20Screenshots/Fig_A.1.png" alt = "Fig_A.1" > 
+</p>
 
-_Figure A.1: The error will arise as a result of entering wrong type of data._
+<div align = "center">
+  <figcaption align = "center">   A.1: The error will arise as a result of entering wrong type of data.   </figcaption>
+ </div>
 
-**Step – 02:** After clicking on Enter button, the following window will pop-up as shown in Fig B.
+</br>
 
-![Shape5](RackMultipart20220824-1-6h9rdt_html_17d67bfdb7b84518.gif)
+<p align = "center"> 
+ <img src = "Readme%20Screenshots/Fig_B.png" alt = "Fig.B" > 
+</p>
 
-_Figure B_
+<div align = "center">
+  <figcaption align = "center">  Fig.B  </figcaption>
+ </div>
 
 Now we will enter the data into this table, as shown in Fig B.1.
 
-![Shape6](RackMultipart20220824-1-6h9rdt_html_41bacced27007412.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_B.1.png"  alt = "Fig_B.1" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-B.1  </figcaption>
+ </div>
 
-_Figure B.1_
+</br>
 
 **Step – 03:** After clicking on check button, the program will generate need matrix as shown in Fig C.
 
-![Shape7](RackMultipart20220824-1-6h9rdt_html_70d9a1b62cf3116d.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_C.png"  alt = "Fig_C" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-C </figcaption>
+ </div>
 
-_Figure C_
+</br>
 
 **Step – 04:** After generating the need matrix, the program will apply the Banker's algorithm and check the system state. As we can see in Fig D, the system is in the safe state with the safe sequence.
 
-![Shape9](RackMultipart20220824-1-6h9rdt_html_ad13f77380df341a.gif) ![Shape8](RackMultipart20220824-1-6h9rdt_html_2b94531167c67b8c.gif) ![Shape10](RackMultipart20220824-1-6h9rdt_html_867b98566fea27.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_D.png"  alt = "Fig_D" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-D   </figcaption>
+ </div>
 
-_Figure D_
+</br>
 
 **Step – 05:** After clicking the "OK" button, the program will ask whether there is a Process Request or not, as shown in Fig E.
 
-![Shape11](RackMultipart20220824-1-6h9rdt_html_ccb33400f1676669.gif)
-
-_Figure E_
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_E.png"  alt = "Fig_E" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-E </figcaption>
+ </div>
+ 
+ </br>
 
 **Step – 06:** Suppose now that the process P1 requests one additional instance of resource type A and two instances of resource type C, so _Request__1_ = (1,0,2), As shown as Fig F.
 
-![Shape12](RackMultipart20220824-1-6h9rdt_html_fa5e4c609119993e.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_F.png"  alt = "Fig_F" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-F  </figcaption>
+ </div>
 
-_Figure F_
+</br>
 
 **Step – 07:** After clicking on the check button, the program first executes the process request algorithm and then generate the need matrix and result, as shown in Fig G and Fig H.
 
-![Shape13](RackMultipart20220824-1-6h9rdt_html_7bd2e07a411a2bc5.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_G.png"  alt = "Fig_G" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-G  </figcaption>
+ </div>
 
-_Figure G_
+</br>
 
-![Shape14](RackMultipart20220824-1-6h9rdt_html_57cbb6a7aea3ffa0.gif)
+<p align = 'center'>
+  <img src = "Readme%20Screenshots/Fig_H.png"  alt = "Fig_H" >
+ </p>
+ 
+ <div align = "center">
+  <figcaption align = "center">  Fig-H  </figcaption>
+ </div>
 
-_Figure H_
+</br>
 
 **Note:** The answer is same as of the book. It can be checked from given reference book.
 
